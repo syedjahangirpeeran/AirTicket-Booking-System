@@ -1,0 +1,50 @@
+<html>
+<head>
+<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?sensor=false&libraries=places"></script>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.5/css/materialize.min.css">
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.5/js/materialize.min.js"></script>
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<style>
+	.submit {
+          text-align: center;
+        }
+    #loader {
+          text-align: center;
+          display: none;
+        }
+    #dvDistance {
+          text-align: center;
+        }
+    .card {
+          text-align: center;
+        }
+</style>
+</head>
+<body>
+<body>
+<div class="container">
+<div class="row">
+<div class="col s12 m6">
+<div class="card light-blue darken-3 hoverable">
+<div class="card-content white-text">
+<form method="post" action="result.php">
+<span class="card-title">Book Flights</span>
+<input type="text" id="txtSource" name="srce" placeholder="Source" /> &nbsp;
+<input type="text" id="txtDestination" name="dest" placeholder="Destination" /> &nbsp;
+<input type="number" id="txtTickets" name="tckts" placeholder="No. of Tickets" />
+<br />
+<p class="submit">
+<input class="waves-effect waves btn" type="submit" value="Go" />
+</p>
+</form>
+</div>
+</div>
+</div>
+<br />
+</div>
+</div>
+</body>
+</body>
+</html>
